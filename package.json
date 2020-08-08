@@ -1,0 +1,25 @@
+{
+  "name": "random-quote-machine",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "randomcolor": "^0.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "",
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreasWasTaken/random-quote-machine_V1.0.0.git"
+  },
+  "keywords": [],
+  "author": "Eder Andreas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreasWasTaken/random-quote-machine_V1.0.0/issues"
+  },
+  "homepage": "https://github.com/andreasWasTaken/random-quote-machine_V1.0.0#readme"
+}
