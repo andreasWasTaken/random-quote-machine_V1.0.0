@@ -8,7 +8,7 @@ const $langDE = document.getElementById('langDE')
 const $langEN = document.getElementById('langEN')
 
 let language = 'langEN'
-let source = './data/quotesEN.json'
+let source = '../../data/quotesEN.json'
 
 
 async function getQuote(index) {
@@ -52,14 +52,14 @@ $nextQuoteBtn.addEventListener('click', () => {
 
 $langDE.addEventListener('click', (event) => {
     language = event.target.id
-    source = './data/quotesDE.json'
+    source = '../../data/quotesDE.json'
     $nextQuoteBtn.textContent = 'Neues Zitat'
     getRandomQuote()
 })
 
 $langEN.addEventListener('click', (event) => {
     language = event.target.id
-    source = './data/quotesEN.json'
+    source = '../../data/quotesEN.json'
     $nextQuoteBtn.textContent = 'New quote'
     getRandomQuote()
 })
