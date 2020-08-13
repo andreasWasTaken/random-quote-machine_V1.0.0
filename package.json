@@ -1,9 +1,10 @@
 {
   "name": "random-quote-machine",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
     "randomcolor": "^0.6.2"
   },
   "devDependencies": {

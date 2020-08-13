@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="./stylesheets/index.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
     <!-- Scripts -->
     <script 
         src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.6.1/randomColor.min.js" 
@@ -19,7 +20,11 @@
     </div>
   
     <div class="quote-container">
-        <h2 class="quote-text" id="quoteText"></h2>
+        <div class="quote">
+            <span><i class="fas fa-quote-left"></i></span>
+            <span id="quoteText" class="quote-text"></span>
+        </div>
+        
         <p class="quote-author" id="quoteAuthor"></p>
         <button class="btn" id="nextQuoteBtn">New quote</button>
     </div>

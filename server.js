@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 8000
 http.createServer((req, res) => {
 
     let filePath = ''
-    if (req.url.includes('data')) {
+    if (req.url.includes('data') || req.url.includes('node_modules')) {
         filePath = path.join(__dirname, req.url)
     } else {
         filePath = path.join(__dirname, 'public', req.url === '/' ? 'index.html' : req.url)
